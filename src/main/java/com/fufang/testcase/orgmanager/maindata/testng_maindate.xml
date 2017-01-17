@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="系统设置接口测试">
+	<test name="mainDate" preserve-order="true">
+		<classes>
+			<class name="com.testcase.orgmanager.maindata.PostRate">
+				<methods>
+					<include name="postRate" />
+					<include name="postRateRepeat" />
+				</methods>
+			</class>
+			<class name="com.testcase.orgmanager.maindata.ListRate"></class>
+			<class name="com.testcase.orgmanager.maindata.DeleteRate"></class>
+		</classes>
+	</test>
+</suite>

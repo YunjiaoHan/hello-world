@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="his前置机接口测试">
+    <test name="his" preserve-order="true">
+        <classes>
+            <class name="com.fufang.testcase.his.GetMaterialContents"></class>
+            <class name="com.fufang.testcase.his.GetFitPharmacy"></class>
+            <class name="com.fufang.testcase.his.UploadPrescription"></class>
+            <class name="com.fufang.testcase.his.QueryPrescription"></class>
+            <class name="com.fufang.testcase.his.AgreeReturnMat"></class>
+               <!--  <methods>
+                    <include name="searchName" />
+                    <include name="searchLicense" />
+                    <include name="searchManuf" />
+                    <include name="searchSupplier" />
+                    <include name="searchNameDosage" />
+                    <include name="searchLicenseDosage" />
+                    <include name="searchNameManuf" />
+                    <include name="searchLicenseManufDosage" />
+                    <include name="duplicateVerify" />
+                    <include name="pageSize" />
+                    <include name="EmptyParams" />
+                    <include name="invalidParams" />
+                    <include name="minScore" />
+                </methods> -->
+        </classes>
+    </test>
+   <!--   <test name="SearchWX" preserve-order="true">
+        <classes>
+            <class name="com.testcase.SearchWX">
+                <methods>
+                    <include name="SearchName" />
+                    <include name="SearchNameManuf" />
+                    <include name="SearchClass" />
+                    <include name="SearchSymptoms" />                   
+                </methods>
+            </class>
+        </classes>
+    </test> -->
+</suite>
+
+
+<!-- <suite name="suite1">
+<test verbose="2" name="testrun1" preserve-order="ture">
+<classes>
+<class name="com.testcase.SearchEP"/>
+<class name="com.testcase.SearchWX"/>
+<methods>
+<include name="SearchName" />
+<include name="SearchLicense" />
+<include name="SearchManuf" />
+<include name="SearchSupplier" />
+<include name="SearchNameSpec" />
+<include name="SearchLicenseDosage" />
+<include name="SearchNameManuf" />
+<include name="SearchLicenseManufDosage" />
+<include name="DuplicateVerify" />
+<include name="PageSize" />
+<include name="SearchSymptoms" />
+<include name="SearchClass" />
+</methods>
+</class>
+</classes>
+
+</test>
+ Default test 
+</suite>
+ Default suite  -->

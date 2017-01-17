@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" total="8" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="his前置机接口测试" duration-ms="1864" started-at="2017-01-16T06:34:38Z" finished-at="2017-01-16T06:34:40Z">
+    <groups>
+    </groups>
+    <test name="his" duration-ms="1864" started-at="2017-01-16T06:34:38Z" finished-at="2017-01-16T06:34:40Z">
+      <class name="com.fufang.testcase.his.GetFitPharmacy">
+        <test-method status="FAIL" signature="getPharmacy()[pri:0, instance:com.fufang.testcase.his.GetFitPharmacy@96532d6]" name="getPharmacy" duration-ms="177" started-at="2017-01-16T14:34:39Z" finished-at="2017-01-16T14:34:40Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [000000] but found [100000]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [000000] but found [100000]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.fufang.testcase.his.GetFitPharmacy.getPharmacy(GetFitPharmacy.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPharmacy -->
+        <test-method status="PASS" signature="invalidParams()[pri:0, instance:com.fufang.testcase.his.GetFitPharmacy@96532d6]" name="invalidParams" duration-ms="38" started-at="2017-01-16T14:34:40Z" finished-at="2017-01-16T14:34:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidParams -->
+      </class> <!-- com.fufang.testcase.his.GetFitPharmacy -->
+      <class name="com.fufang.testcase.his.QueryPrescription">
+        <test-method status="PASS" signature="invalidParams()[pri:0, instance:com.fufang.testcase.his.QueryPrescription@3796751b]" name="invalidParams" duration-ms="35" started-at="2017-01-16T14:34:40Z" finished-at="2017-01-16T14:34:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidParams -->
+        <test-method status="PASS" signature="queryPrescription()[pri:0, instance:com.fufang.testcase.his.QueryPrescription@3796751b]" name="queryPrescription" duration-ms="44" started-at="2017-01-16T14:34:40Z" finished-at="2017-01-16T14:34:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryPrescription -->
+      </class> <!-- com.fufang.testcase.his.QueryPrescription -->
+      <class name="com.fufang.testcase.his.UploadPrescription">
+        <test-method status="FAIL" signature="uploadPrescription()[pri:0, instance:com.fufang.testcase.his.UploadPrescription@3f3afe78]" name="uploadPrescription" duration-ms="57" started-at="2017-01-16T14:34:40Z" finished-at="2017-01-16T14:34:40Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [000000] but found [100000]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [000000] but found [100000]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.fufang.testcase.his.UploadPrescription.uploadPrescription(UploadPrescription.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadPrescription -->
+      </class> <!-- com.fufang.testcase.his.UploadPrescription -->
+      <class name="com.fufang.testcase.his.AgreeReturnMat">
+        <test-method status="PASS" signature="invalidParams()[pri:0, instance:com.fufang.testcase.his.AgreeReturnMat@6442b0a6]" name="invalidParams" duration-ms="23" started-at="2017-01-16T14:34:40Z" finished-at="2017-01-16T14:34:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidParams -->
+        <test-method status="PASS" signature="returenMat()[pri:0, instance:com.fufang.testcase.his.AgreeReturnMat@6442b0a6]" name="returenMat" duration-ms="48" started-at="2017-01-16T14:34:40Z" finished-at="2017-01-16T14:34:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returenMat -->
+      </class> <!-- com.fufang.testcase.his.AgreeReturnMat -->
+      <class name="com.fufang.testcase.his.GetMaterialContents">
+        <test-method status="PASS" signature="insertSql()[pri:0, instance:com.fufang.testcase.his.GetMaterialContents@506e6d5e]" name="insertSql" is-config="true" duration-ms="689" started-at="2017-01-16T14:34:38Z" finished-at="2017-01-16T14:34:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertSql -->
+        <test-method status="PASS" signature="insertSql()[pri:0, instance:com.fufang.testcase.his.QueryPrescription@3796751b]" name="insertSql" is-config="true" duration-ms="53" started-at="2017-01-16T14:34:39Z" finished-at="2017-01-16T14:34:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertSql -->
+        <test-method status="FAIL" signature="getContents()[pri:0, instance:com.fufang.testcase.his.GetMaterialContents@506e6d5e]" name="getContents" duration-ms="352" started-at="2017-01-16T14:34:39Z" finished-at="2017-01-16T14:34:39Z">
+          <exception class="org.apache.http.client.ClientProtocolException">
+            <message>
+              <![CDATA[Unexpected response status: 404]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.apache.http.client.ClientProtocolException: Unexpected response status: 404
+	at com.fufang.utils.HttpUtils$1.handleResponse(HttpUtils.java:42)
+	at com.fufang.utils.HttpUtils$1.handleResponse(HttpUtils.java:34)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:222)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:164)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:139)
+	at com.fufang.utils.HttpUtils.httpGet(HttpUtils.java:46)
+	at com.fufang.testcase.his.GetMaterialContents.getContents(GetMaterialContents.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.apache.http.client.ClientProtocolException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getContents -->
+        <test-method status="PASS" signature="deleteSql()[pri:0, instance:com.fufang.testcase.his.GetMaterialContents@506e6d5e]" name="deleteSql" is-config="true" duration-ms="225" started-at="2017-01-16T14:34:40Z" finished-at="2017-01-16T14:34:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteSql -->
+        <test-method status="PASS" signature="deleteSql()[pri:0, instance:com.fufang.testcase.his.QueryPrescription@3796751b]" name="deleteSql" is-config="true" duration-ms="49" started-at="2017-01-16T14:34:40Z" finished-at="2017-01-16T14:34:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteSql -->
+        <test-method status="PASS" signature="deleteSql()[pri:0, instance:com.fufang.testcase.his.UploadPrescription@3f3afe78]" name="deleteSql" is-config="true" duration-ms="28" started-at="2017-01-16T14:34:40Z" finished-at="2017-01-16T14:34:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteSql -->
+      </class> <!-- com.fufang.testcase.his.GetMaterialContents -->
+    </test> <!-- his -->
+  </suite> <!-- his前置机接口测试 -->
+</testng-results>

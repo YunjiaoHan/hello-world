@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [his前置机接口测试]">
+  <test name="his(failed)">
+    <classes>
+      <class name="com.fufang.testcase.his.UploadPrescription">
+        <methods>
+          <include name="uploadPrescription"/>
+          <include name="deleteSql"/>
+        </methods>
+      </class> <!-- com.fufang.testcase.his.UploadPrescription -->
+      <class name="com.fufang.testcase.his.QueryPrescription">
+        <methods>
+          <include name="insertSql"/>
+          <include name="deleteSql"/>
+        </methods>
+      </class> <!-- com.fufang.testcase.his.QueryPrescription -->
+      <class name="com.fufang.testcase.his.GetFitPharmacy">
+        <methods>
+          <include name="getPharmacy"/>
+        </methods>
+      </class> <!-- com.fufang.testcase.his.GetFitPharmacy -->
+      <class name="com.fufang.testcase.his.GetMaterialContents">
+        <methods>
+          <include name="deleteSql"/>
+          <include name="getContents"/>
+          <include name="insertSql"/>
+        </methods>
+      </class> <!-- com.fufang.testcase.his.GetMaterialContents -->
+    </classes>
+  </test> <!-- his(failed) -->
+</suite> <!-- Failed suite [his前置机接口测试] -->

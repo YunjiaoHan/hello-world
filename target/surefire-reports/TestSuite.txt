@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 2.853 sec <<< FAILURE! - in TestSuite
+getContents(com.fufang.testcase.his.GetMaterialContents)  Time elapsed: 0.365 sec  <<< FAILURE!
+org.apache.http.client.ClientProtocolException: Unexpected response status: 404
+	at com.fufang.testcase.his.GetMaterialContents.getContents(GetMaterialContents.java:61)
+
+getPharmacy(com.fufang.testcase.his.GetFitPharmacy)  Time elapsed: 0.18 sec  <<< FAILURE!
+java.lang.AssertionError: expected [000000] but found [100000]
+	at com.fufang.testcase.his.GetFitPharmacy.getPharmacy(GetFitPharmacy.java:44)
+
+uploadPrescription(com.fufang.testcase.his.UploadPrescription)  Time elapsed: 0.056 sec  <<< FAILURE!
+java.lang.AssertionError: expected [000000] but found [100000]
+	at com.fufang.testcase.his.UploadPrescription.uploadPrescription(UploadPrescription.java:48)
+

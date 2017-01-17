@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="系统设置接口测试">
+    <test name="warnSet" preserve-order="true">
+        <classes>
+            <class name="com.testcase.orgmanager.warnset.Init">
+            </class>
+            <class name="com.testcase.orgmanager.warnset.GetWarnListByGspType">
+                <methods>
+                    <include name="warnGspTypeOne" />
+                    <include name="warnGspTypeTwo" />
+                    <include name="warnGspTypeFour" />
+                </methods>
+            </class>
+             <class name="com.testcase.orgmanager.warnset.GetGspLicenseList">
+                <methods>
+                    <include name="licenseTypeZero" />
+                    <include name="licenseTypeOne" />
+                    <include name="licenseTypeTwo" />
+                    <include name="licenseTypeThree" />
+                </methods>
+            </class>
+            <class name="com.testcase.orgmanager.warnset.GetAllRoleList">
+            </class>
+            <class name="com.testcase.orgmanager.warnset.GetRoleListByGroup">
+            </class>
+        </classes>
+    </test>
+</suite>

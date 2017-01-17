@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="2.853" tests="8" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="$M2_HOME"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Program Files\eclipse\projects\apitest"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\fufu\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\eclipse\projects\.metadata\.plugins\org.maven.ide.eclipse\launches\m2conf1118838284058407492.tmp"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_111\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_111/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_111/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_111/bin/../jre/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_111\\bin;C:\Program Files\Java\jdk1.8.0_111\\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\apache-maven-3.3.9\bin;C:\Program Files\Java\apache-maven-3.3.9\bin;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Users\fufu\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\fufu\AppData\Local\Programs\Python\Python35\;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\fufu"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="yunjiao.han"/>
+    <property name="java.class.path" value="C:\Program Files\Java\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_111\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -B -s C:\Program Files\Java\apache-maven-3.3.9\conf\settings.xml install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\Java\apache-maven-3.3.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="getContents" classname="com.fufang.testcase.his.GetMaterialContents" time="0.365">
+    <failure message="Unexpected response status: 404" type="org.apache.http.client.ClientProtocolException">org.apache.http.client.ClientProtocolException: Unexpected response status: 404
+	at com.fufang.testcase.his.GetMaterialContents.getContents(GetMaterialContents.java:61)
+</failure>
+    <system-out><![CDATA[数据库连接成功
+数据库连接成功
+Executing request GET http://222.128.34.242:8090/ffcloud-hisFc/getMaterialContents/J3001 HTTP/1.1
+]]></system-out>
+  </testcase>
+  <testcase name="getPharmacy" classname="com.fufang.testcase.his.GetFitPharmacy" time="0.18">
+    <failure message="expected [000000] but found [100000]" type="java.lang.AssertionError">java.lang.AssertionError: expected [000000] but found [100000]
+	at com.fufang.testcase.his.GetFitPharmacy.getPharmacy(GetFitPharmacy.java:44)
+</failure>
+    <system-out><![CDATA[参数 :
+{
+	"diagnosisId":"123456",
+	"hisCode":"mtg201",
+	"materials":[
+		{
+			"amount":1,
+			"ffId":215934
+		}
+	]
+}
+正在执行 request POST http://ct.fu-fang.com:8001/ffcloud-hisFc/getFitPharmacy HTTP/1.1
+ResponseBody - {"code":"100000","message":"查询药店实时库存异常,错误信息(没有找到当前社区机构信息！)","data":null}
+]]></system-out>
+  </testcase>
+  <testcase name="invalidParams" classname="com.fufang.testcase.his.GetFitPharmacy" time="0.048"/>
+  <testcase name="uploadPrescription" classname="com.fufang.testcase.his.UploadPrescription" time="0.056">
+    <failure message="expected [000000] but found [100000]" type="java.lang.AssertionError">java.lang.AssertionError: expected [000000] but found [100000]
+	at com.fufang.testcase.his.UploadPrescription.uploadPrescription(UploadPrescription.java:48)
+</failure>
+    <system-out><![CDATA[参数 :
+{
+	"diagnosis":[
+		{
+			"CLINC_NO":"d00",
+			"DIAG_NAME":"测试诊疗",
+			"NOTE":"",
+			"SOAP_SEQID":"000000"
+		}
+	],
+	"hisCode":"mtg201",
+	"prescriptions":[
+		{
+			"AGE":"83",
+			"CARDNO":"12345678901S",
+			"CASE_GROUP":"1",
+			"CLIENT_NAME":"测试患者",
+			"CLINC_NO":"0000CL",
+			"CLINIC_DATE":"2016-12-1900:00:00",
+			"DEPART_CODE":"mtg201",
+			"DEPART_NAME":"门头沟服务站",
+			"DEPART_UPCODE":"mtg101",
+			"DOC_NAME":"测试医生",
+			"EHR_NEWNO":"06000948-A",
+			"ID_CARD":"110101193212290013",
+			"MEDICARE":"8",
+			"MED_TYPE":"02",
+			"MOBILE_PHONE":"",
+			"NOW_ADDRESS":"景山街道隆福寺社区美术馆东街2",
+			"PRESCRI_TYPE":"3",
+			"SEX":"男",
+			"SOAP_SEQID":"000000",
+			"UPCODE_NAME":"门头沟服务中心",
+			"VALID":"1",
+			"FFPRESCRIPTIONCODE":"11010100816122000FF",
+			"prescriptionItems":[
+				{
+					"CHARGE_CODE":"550122220016",
+					"CHARGE_OPR_ID":"测试收款员1",
+					"CLINC_NO":"0000CL",
+					"FREQUENCY_NAME":"Bid",
+					"IS_EXTERNAL":"1",
+					"LEAST_UNIT":"g",
+					"MED_GNAME":"三七伤药片",
+					"MED_PRICE":"5",
+					"MED_SEQID":"215934",
+					"MED_SPEC":"18片*2板",
+					"NUM_PER":"5",
+					"REAL_AMOUNT":"5",
+					"SEND_NUM":"2",
+					"SF_TIME":"2016-12-2100:00:00",
+					"SOAP_MEDID":"0000SM",
+					"SOAP_SEQID":"000000",
+					"UNIT_PER":"g",
+					"USAGE_NAME":"口服",
+					"VALID":"1"
+				}
+			]
+		}
+	]
+}
+正在执行 request POST http://ct.fu-fang.com:8001/ffcloud-hisFc/uploadPrescription HTTP/1.1
+ResponseBody - {"code":"100000","message":"将患者信息、处方信息、缴费信息上传到复方前置机异常,错误信息(null)","data":null}
+]]></system-out>
+  </testcase>
+  <testcase name="invalidParams" classname="com.fufang.testcase.his.QueryPrescription" time="0.029"/>
+  <testcase name="queryPrescription" classname="com.fufang.testcase.his.QueryPrescription" time="0.048"/>
+  <testcase name="invalidParams" classname="com.fufang.testcase.his.AgreeReturnMat" time="0.015"/>
+  <testcase name="returenMat" classname="com.fufang.testcase.his.AgreeReturnMat" time="0.056"/>
+</testsuite>
